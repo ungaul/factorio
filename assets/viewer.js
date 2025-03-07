@@ -395,7 +395,8 @@
                             zoomSnap: .1,
                             zoomsliderControl: !0,
                             zoomControl: !1,
-                            zoomDelta: 1
+                            zoomDelta: 1,
+                            preferCanvas: true
                         });
                     a.addTo(f), o.Control.boxzoom({
                         position: "topleft"

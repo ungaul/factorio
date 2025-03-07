@@ -228,3 +228,19 @@ label:has(input[type="checkbox"]:checked) {
 span.active {
     color: var(--first);
 }
+
+#download {
+    position: fixed;
+    bottom: 20px;
+    font-size: 40px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 100px;
+    cursor: var(--link-cursor);
+    background: var(--third);
+    transition: 0.3s;
+}
+
+#download:hover {
+    filter: brightness(0.9);
+}
