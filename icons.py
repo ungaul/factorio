@@ -18,6 +18,6 @@ def crop_images(input_folder, output_folder):
             except Exception as e:
                 print(f"Error processing {filename}: {e}")
 
-directory = "C:/Users/gaulerie/Desktop/Icons"
+directory = "C:/Users/.../Desktop/Icons"
 output_directory = os.path.join(directory, "cropped")
 crop_images(directory, output_directory)
