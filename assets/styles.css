@@ -244,3 +244,9 @@ span.active {
 #download:hover {
     filter: brightness(0.9);
 }
+
+@media screen and (max-width: 768px) {
+    .leaflet-control-layers-list{
+        width: 120px;
+    }
+}
